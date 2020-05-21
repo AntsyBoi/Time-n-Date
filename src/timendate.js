@@ -2,7 +2,7 @@ function setup() {
     createCanvas(windowWidth, windowHeight);
 }
 /**1.5.3 Fixed
-/**1.5.3a (I think) Partially permanentally fixed placement */
+/**1.5.3a (I think) Partially permanently fixed placement */
 
 function draw() {
     var h = hour();
