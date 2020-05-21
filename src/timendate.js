@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(windowWidth-16, windowHeight-16);
+    createCanvas(windowWidth, windowHeight);
 }
 /**1.5.3 Fixed
 /**1.5.3a (I think) Partially permanently fixed placement */
