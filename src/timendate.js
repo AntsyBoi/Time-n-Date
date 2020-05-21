@@ -44,5 +44,5 @@ function draw() {
     //Timer section
     textSize(10) //Sizes the text for the timer part
     textAlign(CENTER, BASELINE); //Aligns the text for the counter part
-    text("To show you how much time you've wasted I have this counter " + ~~(millis() / 1000), 0, windowHeight / 4 * 3, width) //Displays the timer
+    text("To show you how much time you've wasted I have this counter " + ~~(millis() / 1000), 0, windowHeight / 10 * 9, width) //Displays the timer
 }
