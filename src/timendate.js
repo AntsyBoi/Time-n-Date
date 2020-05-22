@@ -1,48 +1,58 @@
 function setup() {
     createCanvas(windowWidth, windowHeight);
 }
-/**1.5.3 Fixed
-/**1.5.3a (I think) Partially permanently fixed placement */
-
+/**1.5.3 Fixed //not even close
+/**1.5.3a (I think) Partially permanently fixed placement */ //nope
+/** USE 997 WHEN DECODING THE DIVISION*/
 function draw() {
-    var h = hour();
+
+    //console.log(windowHeight)
+    
+    var preh = hour()    
     var m = minute()
     var mo = month()
     var s = second()
     var d = day()
+    
     if (hour() > 12) {
-        h = hour() - 12;
+        preh = hour() - 12;
     }
-
-    if (minute() < 9) {
+    var h = preh
+    if (preh < 9 && preh = 9) {
+        h = "0" + preh
+    }
+    
+    if (minute() < 9 && minute() = 9) {
         m = "0" + minute()
     }
 
-    if (month() < 9) {
+    if (month() < 9 && month()= 9) {
         mo = "0" + month()
     }
 
-    if (second() < 9) {
-        mo = "0" + second()
+    if (second() < 9 && second() = 9) {
+        s = "0" + second()
     }
 
-    if (day() < 9) {
-        mo = "0" + day()
+    if (day() < 9 && day() = 9) {
+        d = "0" + day()
     }
+    
     //Global section
     background(40) //Sets the background color for the project
     fill(200); //Sets the color for all of the text.
     //Credits section
     textAlign(CENTER, TOP); //Aligns the text for the credits
-    textSize(25) //Sizes the text for the credits
-    text("Created by Charles Rinehart", 0, 10, width) //Displays the credits
+    textSize(windowHeight / 39.88) //Sizes the text for the credits
+    text("Created by Charles Rinehart", 0, windowHeight / 99.7, width) //Displays the credits
     //Time and date section
-    textSize(125); //Defines size for the text of the time and date
+    textSize(windowHeight / 7.976); //Defines size for the text of the time and date
     textAlign(CENTER, CENTER); //Aligns the text
-    text(h + ":" + m + ":" + s, 0, windowWidth / 2 - 200, width) //Displays the current time
-    text(d + " / " + mo + " / " + year(), 0, windowHeight / 2, width)//Displays the current date
+    text(h + ":" + m + ":" + s, 0, windowHeight / 2 - (windowHeight / 7.976 / 2.08333333333), width) //Displays the current time
+    text(d + " / " + mo + " / " + year(), 0, windowHeight / 2 + (windowHeight / 7.976 / 2.08333333333), width) //Displays the current date
     //Timer section
-    textSize(10) //Sizes the text for the timer part
+    textSize(windowHeight / 39.88) //Sizes the text for the timer part
     textAlign(CENTER, BASELINE); //Aligns the text for the counter part
-    text("To show you how much time you've wasted I have this counter " + ~~(millis() / 1000), 0, windowHeight / 10 * 9, width) //Displays the timer
+    //console.log(windowHeight + height)
+    text("To show you how much time you've spent, I have this counter " + ~~(millis() / 1000), 0, windowHeight, width) //Displays the timer
 }
