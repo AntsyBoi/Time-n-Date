@@ -54,5 +54,5 @@ function draw() {
     textSize(windowHeight / 39.88) //Sizes the text for the timer part
     textAlign(CENTER, BASELINE); //Aligns the text for the counter part
     //console.log(windowHeight + height)
-    text("To show you how much time you've spent, I have this counter " + ~~(millis() / 1000), 0, windowHeight, width) //Displays the timer
+    text("To show you how much time you've spent, I have this timer " + ~~(millis() / 1000), 0, windowHeight, width) //Displays the timer
 }
