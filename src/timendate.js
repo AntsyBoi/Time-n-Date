@@ -18,23 +18,23 @@ function draw() {
         preh = hour() - 12
     }
     var h = preh
-    if (preh < 9 && preh = 9) {
+    if (preh < 9) {
         h = "0" + preh
     }
     
-    if (minute() < 9 && minute() = 9) {
+    if (minute() < 9) {
         m = "0" + minute()
     }
 
-    if (month() < 9 && month()= 9) {
+    if (month() < 9) {
         mo = "0" + month()
     }
 
-    if (second() < 9 && second() = 9) {
+    if (second() < 9) {
         s = "0" + second()
     }
 
-    if (day() < 9 && day() = 9) {
+    if (day() < 9) {
         d = "0" + day()
     }
     
