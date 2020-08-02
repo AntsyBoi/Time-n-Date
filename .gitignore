@@ -1,5 +1,6 @@
 # VSCode
 vscworkspace.code-workspace
+.vscode/
 
 # Logs
 logs
