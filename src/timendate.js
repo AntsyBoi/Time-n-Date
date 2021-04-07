@@ -1,11 +1,9 @@
 function setup() {
     createCanvas(windowWidth, windowHeight);
 }
-/**1.5.3 Fixed //not even close
-/**1.5.3a (I think) Partially permanently fixed placement */ //nope
 /** USE 997 WHEN DECODING THE DIVISION*/
 function draw() {
-
+    resizeCanvas(windowWidth, windowHeight);
     //console.log(windowHeight)
     
     var preh = hour()    
