@@ -20,19 +20,19 @@ function draw() {
         h = "0" + preh
     }
     
-    if (minute() < 9) {
+    if (minute() < 10) {
         m = "0" + minute()
     }
 
-    if (month() < 9) {
+    if (month() < 10) {
         mo = "0" + month()
     }
 
-    if (second() < 9) {
+    if (second() < 10) {
         s = "0" + second()
     }
 
-    if (day() < 9) {
+    if (day() < 10) {
         d = "0" + day()
     }
     
