@@ -5,21 +5,21 @@ function setup() {
 function draw() {
     resizeCanvas(windowWidth, windowHeight);
     //console.log(windowHeight)
-    
-    var preh = hour()    
+
+    var preh = hour()
     var m = minute()
     var mo = month()
     var s = second()
     var d = day()
-    
+
     if (hour() > 12) {
         preh = hour() - 12
     }
     var h = preh
-    if (preh < 9) {
+    if (preh < 10) {
         h = "0" + preh
     }
-    
+
     if (minute() < 10) {
         m = "0" + minute()
     }
@@ -35,7 +35,7 @@ function draw() {
     if (day() < 10) {
         d = "0" + day()
     }
-    
+
     //Global section
     background(40) //Sets the background color for the project
     fill(200) //Sets the color for all of the text.
