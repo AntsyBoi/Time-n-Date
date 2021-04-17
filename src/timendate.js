@@ -4,14 +4,13 @@ function setup() {
 /** USE 997 WHEN DECODING THE DIVISION*/
 function draw() {
     resizeCanvas(windowWidth, windowHeight);
-    //console.log(windowHeight)
-
+//Sets up variables so then they will display 0s when displaying
     var preh = hour()
     var m = minute()
     var mo = month()
     var s = second()
     var d = day()
-
+//Declares if they will have a 0 before the number
     if (hour() > 12) {
         preh = hour() - 12
     }
