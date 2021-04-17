@@ -1,7 +1,7 @@
 {
   "name": "time-n-date",
   "productName": "time-n-date",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "My Electron application description",
   "main": "src/index.js",
   "scripts": {
