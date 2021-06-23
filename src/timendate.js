@@ -41,7 +41,6 @@ function draw() {
     //Credits section
     textAlign(CENTER, TOP) //Aligns the text for the credits
     textSize(windowHeight / 39.88) //Sizes the text for the credits
-    text("Created by Antsyboi", 0, windowHeight / 99.7, width) //Displays the credits
     //Time and date section
     textSize(windowHeight / 7.976) //Defines size for the text of the time and date
     textAlign(CENTER, CENTER) //Aligns the text
