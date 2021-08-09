@@ -101,3 +101,5 @@ out/
 !.vscode/extensions.json
 *.code-workspace
 
+#Surge
+CNAME

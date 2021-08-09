@@ -38,17 +38,15 @@ function draw() {
     //Global section
     background(40) //Sets the background color for the project
     fill(200) //Sets the color for all of the text.
-    //Credits section
-    textAlign(CENTER, TOP) //Aligns the text for the credits
-    textSize(windowHeight / 39.88) //Sizes the text for the credits
     //Time and date section
     textSize(windowHeight / 7.976) //Defines size for the text of the time and date
-    textAlign(CENTER, CENTER) //Aligns the text
-    text(h + ":" + m + ":" + s, 0, windowHeight / 2 - (windowHeight / 7.976 / 2.08333333333), width) //Displays the current time
-    text(d + " / " + mo + " / " + year(), 0, windowHeight / 2 + (windowHeight / 7.976 / 2.08333333333), width) //Displays the current date
+    textAlign(CENTER, BOTTOM) //Aligns the text
+    text(h + ":" + m + ":" + s, 0, (windowHeight/2), width) //Displays the current time
+    textAlign(CENTER, BASELINE)
+    text(d + " / " + mo + " / " + year(), 0, (windowHeight/2), width) //Displays the current date
     //Timer section
     textSize(windowHeight / 39.88) //Sizes the text for the timer part
-    textAlign(CENTER, BASELINE); //Aligns the text for the counter part
+    textAlign(CENTER, BOTTOM); //Aligns the text for the counter part
     //console.log(windowHeight + height)
-    text("To show you how much time you've spent, I have this timer " + ~~(millis() / 1000), 0, windowHeight / 1.5952, width) //Displays the timer
+    text("To show you how much time you've spent, I have this timer " + ~~(millis() / 1000), 0, windowHeight, width) //Displays the timer
 }
