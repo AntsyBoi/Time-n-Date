@@ -1,6 +1,6 @@
 {
   "name": "time-n-date",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "A simple p5js clock in a node project",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,24 @@
   "dependencies": {
     "express": "^4.17.1",
     "p5": "^1.4.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntsyBoi/Time-n-Date.git"
+  },
+  "keywords": [
+    "Clock",
+    "NodeJS",
+    "Node",
+    "JS",
+    "p5",
+    "p5js",
+    "web",
+    "app"
+  ],
+  "bugs": {
+    "url": "https://github.com/AntsyBoi/Time-n-Date/issues"
+  },
+  "homepage": "https://github.com/AntsyBoi/Time-n-Date#readme"
 }
