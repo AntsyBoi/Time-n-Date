@@ -106,3 +106,5 @@ CNAME
 
 # Keys
 ssl/
+*.pem
+*.key
