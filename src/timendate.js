@@ -6,15 +6,11 @@ function draw() {
     resizeCanvas(windowWidth, windowHeight);
 //Sets up variables so then they will display 0s when displaying
     const Time = new Date();
-    var h = Time.getHours()
     var m = Time.getMinutes()
     var s = Time.getSeconds()
     var mo = Time.getMonth()
     var d = Time.getDay()
 //Declares if they will have a 0 before the number
-    if(Time.getHours() < 10){
-      h = "0" + Time.getHours()
-    }
     if(Time.getMinutes() < 10){
       m = "0" + Time.getMinutes()
     }
@@ -27,9 +23,9 @@ function draw() {
     //Time and date section
     textSize(windowHeight / 8) //Defines size for the text of the time and date
     textAlign(CENTER, BOTTOM) //Aligns the text
-    text(h + ":" + m + ":" + s, 0, (windowHeight/2), width) //Displays the current time
+    text(Time.getHours() + ":" + m + ":" + s, 0, (windowHeight/2), width) //Displays the current time
     textAlign(CENTER, BASELINE)
-    text(Time.getDay() + " / " + Time.getMonth() + " / " + Time.getFullYear(), 0, (windowHeight/2), width) //Displays the current date
+    text(Time.getDate() + " / " + (Time.getMonth()+1) + " / " + Time.getFullYear(), 0, (windowHeight/2), width) //Displays the current date
     //Timer section
     textSize(windowHeight / 40) //Sizes the text for the timer part
     textAlign(CENTER, BOTTOM); //Aligns the text for the counter part
