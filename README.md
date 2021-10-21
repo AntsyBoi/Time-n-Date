@@ -1,5 +1,5 @@
 # Time-n-Date
-A simple clock web app made with p5 and node
+A simple clock web app made node
 
 # How to use
 1. Clone the git repository
