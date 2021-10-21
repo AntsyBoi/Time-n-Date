@@ -1,10 +1,7 @@
 body {
     background-color: #282828;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    border: 0;
     color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .main {
@@ -13,7 +10,8 @@ body {
     top: 50%;
     transform: translate(-50%, -50%)
 }
-.main h1 {
+
+.main p {
     font-size: 6vw;
     padding: 0;
     margin: 0;
@@ -21,6 +19,9 @@ body {
 }
 
 .timer {
+    padding: 0;
+    margin: 0;
+    border: 0;
     font-size: 1.25vw;
-    text-align: top;
+    vertical-align: text-bottom;
 }
