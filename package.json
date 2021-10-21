@@ -12,7 +12,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "fs": "^0.0.1-security",
-    "p5": "^1.4.0",
     "path": "^0.12.7"
   },
   "repository": {
@@ -32,6 +31,5 @@
   "bugs": {
     "url": "https://github.com/AntsyBoi/Time-n-Date/issues"
   },
-  "homepage": "https://github.com/AntsyBoi/Time-n-Date#readme",
-  "devDependencies": {}
+  "homepage": "https://github.com/AntsyBoi/Time-n-Date#readme"
 }

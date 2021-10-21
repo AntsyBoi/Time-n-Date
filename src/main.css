@@ -1,0 +1,26 @@
+body {
+    background-color: #282828;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: #ffffff;
+}
+
+.main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+.main h1 {
+    font-size: 6vw;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.timer {
+    font-size: 1.25vw;
+    text-align: top;
+}
