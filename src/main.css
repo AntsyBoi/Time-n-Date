@@ -24,6 +24,7 @@ body {
 }
 
 .bottom {
+    height: 100%;
     font-size: 2vw;
     display: flex;
     justify-content: center;
@@ -31,6 +32,7 @@ body {
 }
 
 .bottom p {
+    height: 100%;
     font-size: 2vw;
     padding: 0;
     margin: 0;
