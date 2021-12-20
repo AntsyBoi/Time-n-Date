@@ -11,7 +11,6 @@ let port = process.env.PORT || 443 // Sets Default port
 let httpsMode = false // Set to false if you want to use HTTP instead of HTTPS
 
 app.use(express.static('src')) // Hosts all the files in the source folder
-app.use(express.static('node_modules/p5/lib/')) // Allows access of the P5js library from the root folder
 if(httpsMode === true){
   const sslOptions = {
     key: fs.readFileSync('key.key'), // Sets the location of the Private key
