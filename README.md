@@ -1,5 +1,5 @@
 # Time-n-Date
-A simple clock web app made node
+A simple clock web app made with node and 5 years of my life
 
 # How to use
 1. Clone the git repository
