@@ -2,28 +2,19 @@
 <html>
 
 <head>
-  <style>
-    body {
-      overflow-x: hidden;
-    }
-  </style>
-  <title>Time&Date</title>
-  <script src="timendate.js"></script>
-  <script src="p5.js"></script>
+    <title>Time&Date</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="timendate.js"></script>
 </head>
 
-<body>
-  <style>
-    body {
-      overflow-y: hidden;
-    }
-    * { margin: 0; padding: 0;} body, html { height:100%; } #c { position:absolute; width:100%; height:100%; }
-  </style>
-  <style>
-    body {
-      overflow-x: hidden;
-    }
-  </style>
+<body onLoad="time();">
+    <div class="main">
+        <p id="time">Loading...</p>
+        <p id="date">Loading...</p>
+    </div>
+    <div class="bottom">
+        <p id="timer"></p>
+    </div>
 </body>
 
 </html>

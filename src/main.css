@@ -1,0 +1,41 @@
+body {
+    background-color: #282828;
+    color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.main {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.main p {
+    font-size: 6vw;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.bottom {
+    height: 100%;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bottom p {
+    height: 100%;
+    font-size: 2vw;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
