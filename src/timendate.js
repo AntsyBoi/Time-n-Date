@@ -25,7 +25,7 @@ function time() {
   
 
   // Makes the website not crash
-  setTimeout("time()", 0)
+  setTimeout("time()", 1)
 }
 time();
 
